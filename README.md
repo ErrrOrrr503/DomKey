@@ -9,7 +9,7 @@ Intercom key programmer
 **Functional:**
 This project is able to read and write *TM2004*, *RW1990*, maybe other ibutton keys, where similar write commands are used. RFIDcards based on EM-Marine protocol can be read. Raw signal from RDM6300 filter and in built comparator are used for reading. RFID field generator can be stopped by pulling down special custom pin of RDM6300, so there is full hardware support of EM-Marine write, however currently this functionality is not implemented.
 
-When you run this project, you should enter “h” for **help message**:
+When you run this project, you should connect controller via usb virtual com port, **mycom.py** script may be useful. Then enter “h” for **help message**:
 ```
 Parameters list:
   k - show working Key
